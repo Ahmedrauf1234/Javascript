@@ -31,9 +31,9 @@ console.log(names);
 
 
 let names_1 = "Ahmed"
- names = "hassan"
- console.log(names);
- console.log(typeof(names));
+ names_1 = "hassan"
+ console.log(names_1);
+ console.log(typeof(names_1));
 
 
 
