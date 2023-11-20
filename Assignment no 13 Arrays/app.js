@@ -167,6 +167,11 @@ console.log(Val1);
 
 
 
+
+
+
+
+
 //find //advance method continue
 
 const num = [1,2,3,4,5]

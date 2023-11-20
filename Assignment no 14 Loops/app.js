@@ -127,18 +127,60 @@ for(let g = 1; g<=10; g++){
 
 
 //array practice
-let Usercity = prompt("Enter your city will yo go?")
-let cities = ["karachi","lahore","peshawar","multan","murree","sawat"]
-let available = false
-for(let m = 0; m<cities.length; m++){
-    if(Usercity === cities[m]){
-         alert("yes service is avalible")
-        available = true
+// let Usercity = prompt("Enter your city will yo go?")
+// let cities = ["karachi","lahore","peshawar","multan","murree","sawat"]
+// let available = false
+// for(let m = 0; m<cities.length; m++){
+//     if(Usercity === cities[m]){
+//         console.log("yes service is avalible");
+//         available = true
+//     }
+// }
+// if(!available){
+//     alert("sorry service not avalible")
+// }
+
+
+
+//practice array method indexOf
+
+let UserValue = ["Ahmed","Axhad","muhammad","hammad","hassan"]
+let userindex = UserValue.indexOf("Axhad")
+console.log(userindex);
+
+//practice loop in array
+
+let UserValue1 = ["Ahmed","Axhad","muhammad","hammad","hassan"]
+for(let val = 0; val<UserValue1.length; val++){
+    console.log(UserValue[val   ]);
+}
+//end
+
+
+// Own task
+
+let input = document.querySelector("#inp")
+let Users = ["Ahmed","talha","ahmed"]
+let avalible = false
+
+function add(){
+    for(let i = 0; i <Users.length; i++)
+    if(input.value === Users[i]){
+        console.log("Slected");
+        avalible = true
     }
+    
+
+
+if( !avalible){
+    alert("not avalible")
 }
-if(!available){
-    alert("sorry service not avalible")
+
 }
+
+
+
+
 
 
 

@@ -3,11 +3,11 @@
 // // const user;
 
 
-// // let user = "Ahmed"
-// // let Ahmed = "user"
-// // Ahmed = "user"
-// // user = "Ahmed"
-// // console.log(user);
+// let user = "Ahmed"
+// let Ahmed = "user"
+// Ahmed = "user"
+// user = "Ahmed"
+// console.log(user);
 
 
 // //functions //kisi bhi block of code ko resuable banana hai usko hum function me likhte hen
@@ -58,39 +58,39 @@
 
 // //user information
 
-// // let names = prompt("Enter your name")
-// // let age = +prompt("Enter your age")
+let names = prompt("Enter your name")
+let age = +prompt("Enter your age")
 
 
-// // function Greetuser(personname,age){
-// //     if(isNaN(+names) && typeof(age)=== "number"){
-// //         console.log("Hello"+" "+personname+" "+"your age is"+" "+age);
-// //     }
+function Greetuser(personname,age){
+    if(isNaN(+names) && typeof(age)=== "number"){
+        console.log("Hello"+" "+personname+" "+"your age is"+" "+age);
+    }
     
 
-// //     else{
-// //         console.log(" Bhai jaan sahi value do");
-// //     }
-// // }
+    else{
+        console.log(" Bhai jaan sahi value do");
+    }
+}
 
 
-// // Greetuser(names,age)
+Greetuser(names,age)
 
-// //again practice
-// // let person = prompt("Enter your name?")
-// // let pertsonAge = +prompt("Enter your age?")
-// // let personCity = prompt("Enter your city")
+//again practice
+let person = prompt("Enter your name?")
+let pertsonAge = +prompt("Enter your age?")
+let personCity = prompt("Enter your city")
 
-// //  function personInformation(naam,ages,city){
-// //     if(isNaN(+person) && typeof(pertsonAge)=== "number" && isNaN(+personCity)){
-// //         console.log("Hello",naam,"your age is",ages,"and your city is",city);
+ function personInformation(naam,ages,city){
+    if(isNaN(+person) && typeof(pertsonAge)=== "number" && isNaN(+personCity)){
+        console.log("Hello",naam,"your age is",ages,"and your city is",city);
 
-// //     }
-// //     else{
-// //         console.log("Please enter correct values");
-// //     }
-// //  }
-// //  personInformation(person,pertsonAge,personCity)
+    }
+    else{
+        console.log("Please enter correct values");
+    }
+ }
+ personInformation(person,pertsonAge,personCity)
 
 
 
@@ -149,22 +149,22 @@
 // //end
 // //rikshaw sawari function
 
-// // let sawari = prompt("Baji khn jana hai?")
-// // let kiraya = +prompt("aap ka budget kitna hai baji?")
-// // let capacityofrikshaw = +prompt("baji kitne passsenger hen?")
-// // function onlinerikshawwala(sawari,kiraya,capacityofrikshaw){
-// //     if(isNaN(+sawari) && typeof(kiraya)==="number" && kiraya>=100 && typeof(capacityofrikshaw)==="number"&&capacityofrikshaw<=5){
-// //         console.log("baji araha hn me");
-// //     }
+let sawari = prompt("Baji khn jana hai?")
+let kiraya = +prompt("aap ka budget kitna hai baji?")
+let capacityofrikshaw = +prompt("baji kitne passsenger hen?")
+function onlinerikshawwala(sawari,kiraya,capacityofrikshaw){
+    if(isNaN(+sawari) && typeof(kiraya)==="number" && kiraya>=100 && typeof(capacityofrikshaw)==="number"&&capacityofrikshaw<=5){
+        console.log("baji araha hn me");
+    }
     
     
     
-// //     else{
-// //         console.log("baji mzk nh kro rozi per betha hn");
-// //     }
+    else{
+        console.log("baji mzk nh kro rozi per betha hn");
+    }
 
-// // }
-// // onlinerikshawwala(sawari,kiraya,capacityofrikshaw)
+}
+onlinerikshawwala(sawari,kiraya,capacityofrikshaw)
 // //end
 
 
