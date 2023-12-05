@@ -178,6 +178,47 @@ if( !avalible){
 
 }
 
+//while loop
+
+// let v = 0;
+// while(v < 10){
+//     console.log(v);
+//     v++;
+    
+// }
+
+// let x = 0;
+// do{
+//     console.log(x);
+//     x++;
+// } while(x < 10);
+
+
+// for (z = 1; z <= 10; z++){
+//     console.log(5 + "x" + z +"=" + 5*z);
+// }
+
+
+// for ( let s = 0; s <= 3; s++){
+//     console.log("Outer loop ===>",s);
+//     for(let o = 0; o < 3; o++){
+//         console.log("Ahmed");
+//     }
+    
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
