@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parant{
+            padding: 20px;
+            margin: auto;
+            width: 50%;
+            background-color: aqua;
+            text-align: center;
+        }
+        .input{
+            padding: 4px;
+            border: 2px solid wheat;
+        }
+        .btn{
+            border-radius: 50%;
+            border:  1px solid black;
+            padding: 2px;
+            width: 90px;
+            background-color: bisque;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="parant">
+ <label >Name : </label><input class="input" placeholder="Enter Name?" type="text" name="" id="names"> <br><br>
+ <label>Donation : </label>   <input class="input" placeholder="Enter donation Amount?" type="text" name="" id="inp"> <br><br>
+ <button class="btn" onclick="addDonation()" type="submit">Sumbit</button>
+</div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -36,10 +36,20 @@ JsUser.greeting = function(){
     console.log('hello js User');
 }
 JsUser.MyFun = function(){
-    console.log(`Hello MyFun ${this.name}`);
+    console.log(`Hello MyFun ${this.location}`);
 }
 // console.log(JsUser.greeting());
 // console.log(JsUser.MyFun());
+
+//============================================Next========================
+function createObject (name , age){
+    this.name = name;
+    this.age = age;
+}
+
+const obj = new createObject('abdullah' , 20)
+
+console.log(obj);
 
 
 

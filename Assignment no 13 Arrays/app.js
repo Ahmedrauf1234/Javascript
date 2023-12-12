@@ -137,6 +137,12 @@ let Val  = ["Ahmed","axhad","hassan","abdullah"]
 let Val1 = Val.at(-1)
 console.log(Val1);
 
+//=======================Next===============//===========>
+
+let names1 = ['Ahmed','Ahmed','abdullah','Axhad','Ahmed']
+console.log(names1.indexOf('Ahmed',2)); //1 jaise 2 naam k member hn array me to ese get krenge
+
+//==================End==========================>
 
 
 
@@ -169,17 +175,6 @@ console.log(Val1);
 
 
 
-
-
-
-//find //advance method continue
-
-const num = [1,2,3,4,5]
-const findNum = num.find(function(){
-    return 10 % 2 === 0;
-})
-
-console.log(findNum);
 
 
 
