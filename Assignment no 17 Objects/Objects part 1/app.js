@@ -1,7 +1,7 @@
 //single Ton
 //objects litrels
 
-
+//collection of keys and properties is called object
 
 const JsUser = {
     name : 'Ahmed',
