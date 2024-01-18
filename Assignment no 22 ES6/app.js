@@ -15,20 +15,18 @@
 //==================================End===============================>>
 
 //==============================Fetch========================>>
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-//       .then(response => response.json())
-//       .then(json => console.log(json))
+//fetch('https://jsonplaceholder.typicode.com/todos/1')
+     
 
-//  fetch('https://jsonplaceholder.typicode.com/todos')
-//  .then(function(response){
-//     response.json()
-//  })
-//  .then(function(json){
-//     console.log(json);
-//  })
-//  .catch(function(err){
-//     console.log(err);
-//  }) //fail
+ fetch('https://jsonplaceholder.typicode.com/users')
+ .then(function(response){
+    response.json().then(function(res){
+        console.log(res);
+     })
+ })
+ .catch(function(err){
+    console.log(err);
+ }) 
 
 //=============================End======================>>
 //============================Fetch in axios=======================>>
@@ -80,7 +78,7 @@ add()
            <h1> ${items.name} </h1> <button id="btn">Click index</button> <hr/>`
         })
         const btn = document.querySelectorAll('#btn');
-       btn.forEach(function(items , index){
+        btn.forEach(function(items , index){
         items.addEventListener('click',function(){
             console.log(api.data[index]);
         })
@@ -160,7 +158,7 @@ console.log(n);
 //==============================Array  Destructuring======================>>
 
 let numbers = [1,2,3,4,5];
-let [a,b,c,,d] = numbers
+let [a,b,c,d] = numbers
 console.log(d);
 
 //=========End============>>
@@ -180,7 +178,7 @@ hello1()
 
 //================End==============>>
 
-//===========================Lexical scope and cclosures===============>>
+//===========================Lexical scope and Closures===============>>
 
 function abc(){
     let city = 'karachi'
