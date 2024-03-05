@@ -19,9 +19,10 @@ const Products = () => {
     }, [])
   return (
     <>
-    <div>
+    <div className='flex justify-center flex-wrap gap-5 mt-5'>
         {data.length > 0 ? data.map((items )=>{
-            return <Cart key={items.id} title={items.title} description={items.description} src={items.image} price={items.price}/>
+            return  <Cart key={items.id} title={items.title} description={items.description} src={items.image} price={items.price}/>
+        
 
         }): <h1>loading..</h1> }
     </div>
