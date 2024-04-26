@@ -44,7 +44,8 @@ const addData = async(event)=>{
       username: username.current.value,
       email: email.current.value,
       age: age.current.value,
-      city: city.current.value
+      city: city.current.value,
+      uid: auth.currentUser.uid
     });
     console.log("Document written with ID: ", docRef.id);
   } catch (e) {
