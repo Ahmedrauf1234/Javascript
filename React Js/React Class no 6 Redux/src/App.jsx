@@ -22,17 +22,16 @@ const App = () => {
     dispatch(removeTodo({
       index : index
     }))
-    //===========================End=====================>>
-    const editTodo = (index)=>{
-      const updatedValue = prompt('Enter Updated value?');
-      dispatch(editTodo({
-        index : index,
-        value : updatedValue
+  }
 
-       
-      }))
-     
-    }
+  //===========================End=====================>>
+  const editTodos = (index)=>{
+    const updatedValue = prompt('Enter Updated value?');
+    dispatch(editTodo({
+      index : index,
+      value : updatedValue
+    }))
+   
   }
   return (
     <>
@@ -45,7 +44,7 @@ const App = () => {
     {selector.map((items , index)=>{
       return <li key={index}>{items.title}
       <button onClick={()=>deleteTodo(index)}>delete</button>
-      <button onClick={()=>editTodo(index)}>Edit Todo</button>
+      <button onClick={()=>editTodos(index)}>Edit Todo</button>
       </li>
     })}
     </ul>

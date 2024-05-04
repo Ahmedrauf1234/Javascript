@@ -20,10 +20,11 @@ export const todoSlice =  createSlice({
             state.todos.splice(action.payload.index , 1);
         },
         editTodo: (state , action)=>{
-            state.todos.splice(action.payload.index , 1 , {
-                title:action.payload.value
+            // state.todos.splice(action.payload.index , 1 , {
+            //     title:action.payload.value
                 
-            })
+            // })
+            state.todos[action.payload.index].title = action.payload.value
         }
 
     }
